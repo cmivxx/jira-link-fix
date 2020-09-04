@@ -1,0 +1,13 @@
+{
+    "content_scripts": [ {
+        "js": [ "js/jiraFixer.js" ],
+        "matches": [ "http://*.atlassian.net/*", "https://*.atlassian.net/*" ]
+    } ],
+    "manifest_version": 2,
+    "name": "Jira Link Fixer",
+    "version": "1.0",
+    "description": "Opens external links in a new tab",
+    "icons": {
+        "64": "assets/icon64.png"
+    }
+}
